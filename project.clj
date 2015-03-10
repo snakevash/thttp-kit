@@ -6,7 +6,8 @@
   :dependencies [[org.clojure/clojure "1.6.0"]
                  [http-kit "2.1.16"]
                  [compojure "1.3.2"]
-                 [javax.servlet/servlet-api "2.5"]]
+                 [javax.servlet/servlet-api "2.5"]
+                 [org.clojure/data.json "0.2.6"]]
   :main ^:skip-aot thttpkit.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}})
